@@ -1,4 +1,4 @@
-package dev.quilla.springmvcboot.model;
+package dev.quilla.springmvc.model;
 
 public class Alien {
 
@@ -23,6 +23,6 @@ public class Alien {
 
     @Override
     public String toString() {
-        return "Alien{" + "id=" + id + ", name='" + name + '\'' + '}';
+        return "dev.quilla.springmvc.model.Alien{" + "id=" + id + ", name='" + name + '\'' + '}';
     }
 }

@@ -1,14 +1,11 @@
-package dev.quilla.springmvcboot;
+package dev.quilla.springmvc;
 
-import dev.quilla.springmvcboot.model.Alien;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpSession;
+import dev.quilla.springmvc.model.Alien;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class HomeController {
@@ -37,7 +34,7 @@ public class HomeController {
 //        return modelAndView;
 //    }
 
-    @RequestMapping("addAlien")
+    @PostMapping("addAlien")
     public String addAlien(@ModelAttribute("alien1") Alien alien) {
 
         return "result";
