@@ -34,7 +34,7 @@
         <property name="hibernateProperties">
             <props>
                 <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
-                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.show_sql">true</prop>  <!-- Probably should be kept false in prod instance -->
             </props>
         </property>
     </bean>
