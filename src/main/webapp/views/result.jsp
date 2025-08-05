@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Index</title>
+    <title>Result</title>
 </head>
 <body>
     <h1>Welcome to Quilla's Webapp!</h1>
